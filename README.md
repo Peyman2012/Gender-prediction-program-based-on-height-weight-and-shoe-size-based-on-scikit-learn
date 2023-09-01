@@ -4,3 +4,18 @@
 
 
 **Gender prediction program based on height, weight and shoe size based on scikit-learn**
+
+Import csv in variables x_1 and y_1.
+Because it reads the rows of the dataset columns using the csv library and gives an error. From the index, one and the next should be poured into the x and y variables.
+
+     x_1=[]
+     y_1=[]
+
+     with open('hight.csv','r') as csvfile:
+            data = csv.reader(csvfile)
+            for line in data:
+                    x_1.append(line[0:3])
+                    y_1.append(line[3:])
+
+     x=x_1[1:]
+     y=y_1[1:]
