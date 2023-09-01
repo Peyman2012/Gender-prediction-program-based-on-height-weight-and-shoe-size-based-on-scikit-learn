@@ -34,3 +34,5 @@ The problem we are trying to solve is to determine a continuous numerical output
         print(f'Person: {i+1} ==> Gender: {answer[i]}')
 
 
+Dataset link:
+https://www.kaggle.com/datasets/peimandaii/dataset-of-people
